@@ -1,0 +1,143 @@
+*
+body {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+ body.dark-mode::-webkit-scrollbar-thumb {
+    background:black;
+    border-radius: 10px;
+  
+  }
+  body.dark-mode::-webkit-scrollbar-track {
+    background: gold; 
+    border-radius: 10px; 
+  }
+
+button, .btn {
+    background-color: blue;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode button,
+body.dark-mode .btn {
+    background-color: gold;
+    color: black;
+}
+body.dark-mode #home p{
+    color: var(--light-gray);
+}
+body.dark-mode #home small{
+    color: var(--light-gray);
+}
+
+body.dark-mode header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    z-index: 3;
+ 
+
+}body.dark-mode header .navList   a{
+    color: gold;
+}
+body.dark-mode h2 {
+    color: gold;
+}
+body.dark-mode h3 {
+    color: gold;
+}
+body.dark-mode p{
+    color: #fff;
+}
+
+
+body.dark-mode #doctor{
+    background-color: black;
+
+}
+body.dark-mode #blog{
+    background-color: black;
+
+} body.dark-mode #contact{
+    background-color: black;
+
+}
+body.dark-mode #footer{
+    background-color: black;
+
+}
+body.dark-mode #price-list{
+    background-color: black;
+
+}
+ body.dark-mode #newsletter{
+   
+  background-color: black; 
+    border: solid 1px gold;
+    border-radius: 10px;
+}
+body.dark-mode #footer .footer-top{
+   
+    background-color: black; 
+      border: solid 1px gold;
+      border-radius: 10px;
+  }
+  body.dark-mode #footer .copyright{
+    background-color: black;
+  }
+  body.dark-mode #footer .copyright{
+   color: #fff;
+  }
+  body.dark-mode #footer .copyright span{
+    background-color: gold;
+    color: #FFF;
+    font-size: 1.3rem;
+  }
+
+  body.dark-mode #menu-icon{
+    color: gold;
+  }
+  
+  body.dark-mode #info .row .col i{
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid gold;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ body.dark-mode #info .row .col:hover i{
+    background-color: #fff;
+    color:gold;
+}
+.navList li{
+    padding: 10px; 
+    margin:  0 5px;
+        position: relative;
+    }
+body.dark-mode  header .navList li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    background-color: gold;            
+    height: 2px;
+    width: 0%;
+    transition: all 1s;
+    }
+    body.dark-mode header .navList li:hover a::before {
+        width: 100%; 
+    background-color: gold;            
+
+        }
+    
